@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.7.
 
+Dynamically Enlists all  the lists and all the webs in the current SharePoint site collection.
+
+It shows a table with the following columns (sortable if you click on the headers):
+
+Site ,List / Library Title, Item Count, Hidden,  Versioning Enabled.
+
+
+
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
