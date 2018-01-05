@@ -9,7 +9,6 @@ import {SharePointListBoundaries} from './sharepoint-list-boundaries';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
   styles: [`
     .even { background-color: #F3EBDC; }
     .odd { background-color: #EFE3CE; }
@@ -18,7 +17,7 @@ import {SharePointListBoundaries} from './sharepoint-list-boundaries';
 	providers:[SharepSoapWebServices]
 })
 export class AppComponent {
-text: string = 'Web Part 1 Loaded with Headers';
+text: string = 'Live Count of all items in all lists and libraries';
   title = 'app';
   subsites: SubSite[];
 	lists: SharePointList[];

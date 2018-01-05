@@ -1,5 +1,6 @@
 <h1>{{text}}</h1>
-	
+	<h2>See at the bottom a catalog of Webs.</h2>
+	<h3><i>Hint:You can sort by clicking on the header of the table.</i></h3>
 	  <table>
 		<thead>
 			<tr>
@@ -47,7 +48,8 @@
 			</tr>
 		</tbody>
 		</table>
-		Webs:
+		<br/>
+		List of Webs / subsites:
 		<ul>
 		  <li *ngFor="let subsite of subsites" >
 			<span >{{subsite.title}}</span> {{subsite.url}}
